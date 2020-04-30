@@ -26,21 +26,39 @@
 	margin-top: 10px;
 }
 
-/**********       Our Menu          *****************/
-/**********       about chicken          *****************/
-.chicken-menu section {
-	background-color: silver;
-	text-align: center;
-	height: 1000px;
-	margin-right: 5vw;
-	margin-left: 5vw;
+button {
+	position: absolute;
+	top: 9px;
+	right: 5px;
 }
 
+/**********       Our Menu          *****************/
+/**********       about chicken          *****************/
+.row.menu{
+background-color: red;
+}
+
+div section {
+	background-color: silver;
+	text-align: center;
+	position: relative;
+}
+section h2 {
+	text-align: center;
+}
 section p {
 	text-align: left;
-	padding-left: 3vw;
-	padding-right: 3vw;
+	padding-left: 2vw;
+	padding-right: 2vw;
 	font-size: 20px;
+	padding-bottom: 30px;
+}
+a.go-back-top{
+	position: absolute;
+	bottom: 30px;
+	right: 35px;
+	font-size: 18px;
+	cursor: pointer;
 }
 
 /**********       Collapse navigation button         *****************/
